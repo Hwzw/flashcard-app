@@ -37,7 +37,9 @@ if 'CODESPACE_NAME' in os.environ:
 
 # Application definition
 
+
 INSTALLED_APPS = [
+    "flashcards.apps.FlashcardsConfig",
     "django.contrib.admin",
     "django.contrib.auth",
     "django.contrib.contenttypes",
@@ -116,7 +118,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = "en-us"
 
-TIME_ZONE = "UTC"
+TIME_ZONE = "EST"
 
 USE_I18N = True
 
